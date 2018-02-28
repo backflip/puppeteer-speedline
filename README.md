@@ -10,7 +10,7 @@ Tested with Node 9.5
 
 Run script `npm start`.
 
-It will generate a `trace.json` which is used by [`speedline`](https://www.npmjs.com/package/speedline) to extract [`speedIndex`](https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index) and [`perceptualSpeedIndex`](https://developers.google.com/web/tools/lighthouse/audits/speed-index), among others. This file can also be dropped into the `Network` tab of Chrome's dev tools.
+It will generate a `trace.json` which is used by [`speedline`](https://www.npmjs.com/package/speedline) to extract [`speedIndex`](https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index) and [`perceptualSpeedIndex`](https://developers.google.com/web/tools/lighthouse/audits/speed-index), among others. This file can  be dropped into the `Performance` tab of Chrome's dev tools to be further analyzed.
 
 ## Throttle network on OS X
 
